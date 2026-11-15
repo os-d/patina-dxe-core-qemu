@@ -56,6 +56,23 @@ workspace = true
 # `coverage_attribute` behind it does not trigger unexpected_cfgs warnings.
 unexpected_cfgs = { level = "warn", check-cfg = ['cfg(coverage)'] }
 
+[patch.crates-io]
+patina = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_adv_logger = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_debugger = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_dxe_core = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_ffs = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_ffs_extractors = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_internal_core = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_internal_cpu = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_macro = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_mm = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_performance = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_samples = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_smbios = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_stacktrace = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+patina_test = { git = "https://github.com/os-d/patina", rev = "ebdbade6467b46724f718279b49d73b3bbc34973" }
+
 [features]
 ci_features = [
   'build_debugger',

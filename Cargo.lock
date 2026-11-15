@@ -254,8 +254,7 @@ checksum = "2ee67f1008b1ba2321834326597b8e186293b049a023cdef258527550b9935b4"
 [[package]]
 name = "patina"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a5d0d66d72312bd8b9a5d6d232794ec35a3322d92cbc09f69d5ec35763fa233a"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "compile-time",
  "fallible-streaming-iterator",
@@ -277,8 +276,7 @@ dependencies = [
 [[package]]
 name = "patina_adv_logger"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0e329a5b3e60a7ad12308f685cb85f02fd01510484f37eabd987ea8dcff6d5b1"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "log",
  "patina",
@@ -291,8 +289,7 @@ dependencies = [
 [[package]]
 name = "patina_debugger"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f0c1dd16660d7fcf3ac6c4e4a6527ff82566338ad1a009fca9e4ce73e742c276"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "bitfield-struct",
  "gdbstub",
@@ -307,8 +304,7 @@ dependencies = [
 [[package]]
 name = "patina_dxe_core"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "76f29d30fa17c2f8a115300a741db4cd0dbfb9404e5bda8821ede87cc01edb77"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "arm-gic",
  "bitfield-struct",
@@ -333,8 +329,7 @@ dependencies = [
 [[package]]
 name = "patina_ffs"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7fe52d6aa3253c5981f883b1dcd9eb251609521f66a77497e5dd46bf8f541c99"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "log",
  "patina",
@@ -343,8 +338,7 @@ dependencies = [
 [[package]]
 name = "patina_ffs_extractors"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd4df651647442cf675c3bbcb3fe7c01b1a7ac031317167d93c76f87722ee030"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "alloc-no-stdlib",
  "brotli-decompressor",
@@ -356,8 +350,7 @@ dependencies = [
 [[package]]
 name = "patina_internal_core"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1058ef4d581032beb5568c013bec8c835a5c15cd3d6b13f950e346beb6fd841d"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "log",
  "patina",
@@ -367,8 +360,7 @@ dependencies = [
 [[package]]
 name = "patina_internal_cpu"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "81a18f73a1ea1908b588efadedcb6dbd4a55d4fa8a23cb29888a63439832b4e8"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "arm-gic",
  "log",
@@ -382,8 +374,7 @@ dependencies = [
 [[package]]
 name = "patina_macro"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fb148ba6bc1772749a57234eb5d49ff44ffaaa3aa4072bc3599e9e85cdaa3d5b"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -394,8 +385,7 @@ dependencies = [
 [[package]]
 name = "patina_mm"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1a8b994640feecda27cb38c2144f6125c072da6d2b672a954cc5c97bbd153a80"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "log",
  "patina",
@@ -428,8 +418,7 @@ dependencies = [
 [[package]]
 name = "patina_performance"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "60b53383dc0ad6acb9af174523ddaff70851e3c70348bdc6887e70c5ed6dc498"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "log",
  "patina",
@@ -441,8 +430,7 @@ dependencies = [
 [[package]]
 name = "patina_samples"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "de5acccf45cd48448fc9cd79d6e5857de7c2fab3266c043208256ea01b628f2f"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "log",
  "patina",
@@ -454,8 +442,7 @@ dependencies = [
 [[package]]
 name = "patina_smbios"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "25451b5207683812756448fe4234e3e766f8dfdf87e843abc947c4aa8900e096"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "bitfield-struct",
  "log",
@@ -468,8 +455,7 @@ dependencies = [
 [[package]]
 name = "patina_stacktrace"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "84b1609fe2d8a8a2abbb33e715fed616fb26dfc1c3706a9a27465d1ba50b00d0"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "log",
  "patina",
@@ -478,8 +464,7 @@ dependencies = [
 [[package]]
 name = "patina_test"
 version = "24.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "15181e94044f02e9ddd73481e1cea6c5de1de3cd2c49f55cd57621e64bc16819"
+source = "git+https://github.com/os-d/patina?rev=ebdbade6467b46724f718279b49d73b3bbc34973#ebdbade6467b46724f718279b49d73b3bbc34973"
 dependencies = [
  "linkme",
  "log",
