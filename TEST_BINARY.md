@@ -4,8 +4,10 @@
 and PDB symbols only. It is not a complete replacement for the upstream release.
 
 The binaries use Patina commit
-`10e421fa8f7b47aa5a368e5855c8330f0ff6a54b`. They restore repeated global
-compatibility activation and add allocation-free `MEMWATCH` diagnostics for
+`87928c54d53f5976258dd4a93f445cc9931681a4`. They bound compatibility updates
+to the remaining descriptor/range intersection and activate global compatibility
+only once, while retaining per-image mapping on every call. They retain
+allocation-free `MEMWATCH` diagnostics for
 the page at `0x27e902000`, containing the previous fault address `0x27e902048`.
 Cargo.toml and Cargo.lock pin this published diagnostic commit from the
 `os-d/patina` fork.
