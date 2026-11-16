@@ -57,21 +57,21 @@ workspace = true
 unexpected_cfgs = { level = "warn", check-cfg = ['cfg(coverage)'] }
 
 [patch.crates-io]
-patina = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_adv_logger = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_debugger = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_dxe_core = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_ffs = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_ffs_extractors = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_internal_core = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_internal_cpu = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_macro = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_mm = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_performance = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_samples = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_smbios = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_stacktrace = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
-patina_test = { git = "https://github.com/os-d/patina", rev = "87928c54d53f5976258dd4a93f445cc9931681a4" }
+patina = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_adv_logger = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_debugger = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_dxe_core = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_ffs = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_ffs_extractors = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_internal_core = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_internal_cpu = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_macro = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_mm = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_performance = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_samples = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_smbios = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_stacktrace = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
+patina_test = { git = "https://github.com/os-d/patina", rev = "34cd4c398e3583aa1fa60760bbad16b8ed07c28a" }
 
 [features]
 ci_features = [

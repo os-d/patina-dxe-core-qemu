@@ -254,7 +254,7 @@ checksum = "2ee67f1008b1ba2321834326597b8e186293b049a023cdef258527550b9935b4"
 [[package]]
 name = "patina"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "compile-time",
  "fallible-streaming-iterator",
@@ -276,7 +276,7 @@ dependencies = [
 [[package]]
 name = "patina_adv_logger"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "log",
  "patina",
@@ -289,7 +289,7 @@ dependencies = [
 [[package]]
 name = "patina_debugger"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "bitfield-struct",
  "gdbstub",
@@ -304,7 +304,7 @@ dependencies = [
 [[package]]
 name = "patina_dxe_core"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "arm-gic",
  "bitfield-struct",
@@ -317,7 +317,6 @@ dependencies = [
  "patina_internal_core",
  "patina_internal_cpu",
  "patina_paging",
- "patina_stacktrace",
  "patina_test",
  "rustversion",
  "scroll",
@@ -330,7 +329,7 @@ dependencies = [
 [[package]]
 name = "patina_ffs"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "log",
  "patina",
@@ -339,7 +338,7 @@ dependencies = [
 [[package]]
 name = "patina_ffs_extractors"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "alloc-no-stdlib",
  "brotli-decompressor",
@@ -351,7 +350,7 @@ dependencies = [
 [[package]]
 name = "patina_internal_core"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "log",
  "patina",
@@ -361,7 +360,7 @@ dependencies = [
 [[package]]
 name = "patina_internal_cpu"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "arm-gic",
  "log",
@@ -375,7 +374,7 @@ dependencies = [
 [[package]]
 name = "patina_macro"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -386,7 +385,7 @@ dependencies = [
 [[package]]
 name = "patina_mm"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "log",
  "patina",
@@ -419,7 +418,7 @@ dependencies = [
 [[package]]
 name = "patina_performance"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "log",
  "patina",
@@ -431,7 +430,7 @@ dependencies = [
 [[package]]
 name = "patina_samples"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "log",
  "patina",
@@ -443,7 +442,7 @@ dependencies = [
 [[package]]
 name = "patina_smbios"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "bitfield-struct",
  "log",
@@ -456,7 +455,7 @@ dependencies = [
 [[package]]
 name = "patina_stacktrace"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "log",
  "patina",
@@ -465,7 +464,7 @@ dependencies = [
 [[package]]
 name = "patina_test"
 version = "24.3.0"
-source = "git+https://github.com/os-d/patina?rev=87928c54d53f5976258dd4a93f445cc9931681a4#87928c54d53f5976258dd4a93f445cc9931681a4"
+source = "git+https://github.com/os-d/patina?rev=34cd4c398e3583aa1fa60760bbad16b8ed07c28a#34cd4c398e3583aa1fa60760bbad16b8ed07c28a"
 dependencies = [
  "linkme",
  "log",
